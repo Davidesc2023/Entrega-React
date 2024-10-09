@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    font-style: normal;
+    color: aliceblue;
+    
+  
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    background-color: #333; /* Color de fondo */
+    padding: 10px;
+}
+
+
+  .header-icon {
+    width: 50px; /* Ajusta el tamaño del icono según sea necesario */
+    height: 50px; /* Ajusta el tamaño del icono según sea necesario */
+    margin-right: 10px; /* Espacio entre el icono y el texto */
+  }
+  
+  footer {
+    background-color: #ffcc00;
+    padding: 10px;
+    text-align: center;
+  }
+  

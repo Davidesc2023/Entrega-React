@@ -1,0 +1,51 @@
+/* src/components/ProductCard.css */
+
+.product-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.2s;
+    color: black;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.buy-button {
+    background-color: #ffcc00;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.product-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    width: 100%;
+    padding: 20px;
+}
